@@ -34,7 +34,7 @@ function M.run(opts)
                     local label = util.pluralize(output, opts.delta)
                     util.notify(
                         data[1] .. " " .. label,
-                        vim.log.levels.WARN,
+                        opts.level,
                         {
                             title = opts.title,
                             timeout = 5000,
