@@ -1,12 +1,8 @@
-#Time Is Running Out
-
-
-
 # Time Is Running Out ⏳
 
-Simple Reminder that just being alive is not living. I guess you could also use this
-as a reminder to any specific date.
-Runs asynchronously via Python.
+Simple Reminder that just being alive is not living.
+
+I guess you could also use this as a reminder to any specific date.
 
 ---
 
@@ -14,7 +10,6 @@ Runs asynchronously via Python.
 
 - Runs on Neovim startup
 - Optional **once-per-day** notification
-- Async
 - Optional integration with `nvim-notify`
 
 ---
