@@ -9,6 +9,8 @@ I guess you could also use this as a reminder to any specific date.
 ## ✨ Features
 
 - Runs on Neovim startup
+- Optional **title** can be customised
+- Optional **level** can be customised (Vim Log Levels)
 - Optional **once-per-day** notification
 - Optional integration with `nvim-notify`
 
@@ -34,7 +36,9 @@ return {
         require("time_is_running_out").run({
         end_date = "2070-12-31 23:59:59",
         delta = "days",
-        only_once_per_day = true
+        only_once_per_day = true,
+        title = "⏳ Time Is Running Out",
+        level = vim.log.levels.ERROR
     })
 end,
 }
